@@ -34,6 +34,7 @@
 		8D28FF3D19480F99003B99F0 /* myFirstSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D28FF4219480F99003B99F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D28FF4319480F99003B99F0 /* myFirstSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstSwiftTests.swift; sourceTree = "<group>"; };
+		8DFA9D4819492474004B31A8 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 			children = (
 				8D28FF3019480F99003B99F0 /* AppDelegate.swift */,
 				8D28FF3219480F99003B99F0 /* ViewController.swift */,
+				8DFA9D4819492474004B31A8 /* MyPlayground.playground */,
 				8D28FF3419480F99003B99F0 /* Main.storyboard */,
 				8D28FF3719480F99003B99F0 /* Images.xcassets */,
 				8D28FF2E19480F99003B99F0 /* Supporting Files */,
@@ -397,6 +399,7 @@
 				8D28FF4919480F99003B99F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D28FF4A19480F99003B99F0 /* Build configuration list for PBXNativeTarget "myFirstSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +408,7 @@
 				8D28FF4C19480F99003B99F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
