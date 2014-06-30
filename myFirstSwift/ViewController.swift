@@ -12,7 +12,7 @@ let SeverUrl = "127.0.0.1:3000"
 
 func login(a: String, b: Int) -> Bool {
     var url = NSURL(string: "http://\(SeverUrl)/user/sessions")
-    var request = NSMutableURLRequest(URL: NSURL(string: "http://localhost:3000/users/sign_in"))
+    var request = NSMutableURLRequest(URL: NSURL(string: "http://localhost:3000/api/sessions"))
 
     var session = NSURLSession.sharedSession()
     request.HTTPMethod = "POST"
@@ -57,6 +57,9 @@ class ViewController: UIViewController {
         var passwordText = password.text
         println("sssss")
         login("", 1)
+        var storybboard = self.storyboard
+        var hmc : AnyObject! = storybboard.instantiateViewControllerWithIdentifier("hmc")
+        self.navigationController.pushViewController(hmc as UIViewController, animated: true);
     }
     
     
