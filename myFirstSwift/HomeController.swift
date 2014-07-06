@@ -10,4 +10,18 @@ import UIKit
 
 
 class HomeController: UIViewController {
+    override func viewDidLoad() {
+        HTTPGet("http://127.0.0.1:3000/home/index.json") {
+            (data: String, error: String?) -> Void in
+            if (error) {
+              println(error)
+            } else {
+                println(data)
+            }
+        }
+        
+        super.viewDidLoad()
+    }
+    
+
 }
